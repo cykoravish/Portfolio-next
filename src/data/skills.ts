@@ -19,6 +19,9 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import JavaSvg from "@/public/icons/java.svg";
+import CppSvg from "@/public/icons/cpp.svg";
+import CSvg from "@/public/icons/c.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
@@ -30,16 +33,19 @@ import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import DjangoSvg from "@/public/icons/django.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
+import MysqlSvg from "@/public/icons/mysql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import RedisSvg from "@/public/icons/redis.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -54,10 +60,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CsssSvg,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
         name: "Javascript",
         icon: JavascriptSvg,
       },
@@ -68,6 +70,22 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "Java",
+        icon: JavaSvg,
+      },
+      {
+        name: "C++",
+        icon: CppSvg,
+      },
+      {
+        name: "C",
+        icon: CSvg,
+      },
+      {
+        name: "Sass",
+        icon: SassSvg,
       },
     ],
   },
@@ -135,6 +153,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Flask",
         icon: SiFlask,
       },
+      {
+        name: "Django",
+        icon: DjangoSvg,
+      },
     ],
   },
   {
@@ -151,6 +173,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Prisma",
         icon: SiPrisma,
+      },
+      {
+        name: "Mysql",
+        icon: MysqlSvg,
       },
     ],
   },
@@ -172,6 +198,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "Redis",
+        icon: RedisSvg,
       },
     ],
   },

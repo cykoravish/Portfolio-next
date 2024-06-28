@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useState } from "react";
 
 import { Field, Form, Formik } from "formik";
@@ -74,7 +75,7 @@ export default function ContactForm() {
         validateOnChange
       >
         {({ isValid }) => (
-          <Form className="mt-6 flex flex-col gap-3">
+          <Form className="mt-2 flex flex-col gap-3">
             <div className="flex flex-col gap-1">
               <div>
                 <label

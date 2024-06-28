@@ -108,6 +108,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/portDark.png",
       "/images/projects/portLight.png",
       "/images/projects/portAbout.png",
+      "/images/projects/portContact.png",
     ],
     description:
       "My personal portfolio website made using Nextjs 13, tailwindcss and framer motion.",
