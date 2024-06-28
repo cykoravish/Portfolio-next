@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+import heroProfileImg from "@/public/images/preety.png";
 
 export default function AboutHero() {
   return (
@@ -12,14 +12,17 @@ export default function AboutHero() {
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
-            <Image
-              src={heroProfileImg}
-              width={100}
-              height={100}
-              className="h-auto w-full px-0 xl:px-16"
-              alt="hero image"
-              unoptimized
-            />
+            <div className="inline-block overflow-hidden rounded-full">
+              {/* Updated line for circular crop */}
+              <Image
+                src={heroProfileImg}
+                width={100}
+                height={100}
+                className="h-auto w-full px-0 xl:px-16"
+                alt="hero image"
+                unoptimized
+              />
+            </div>
           </FadeUp>
         </AnimatePresence>
       </div>
@@ -27,7 +30,7 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m Abhinandan
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
@@ -40,7 +43,8 @@ export default function AboutHero() {
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript and web development.
+              Nextjs, Javascript, Typescript, PostgreSQL, Prisma, Drizzle,
+              MongoDB and more...
             </p>
           </FadeUp>
           <FadeRight
@@ -59,7 +63,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Noida, India
             </span>
           </FadeRight>
         </AnimatePresence>

@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of Engineering in Computer Science",
     organisation: {
-      name: "Rizvi College Of Engineering",
+      name: "JSS Academy of Technical Education",
       href: "https://eng.rizvi.edu.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2022-2026",
+    location: "Noida",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network, Operating Systems, OOPS,  and Database Management.",
   },
   {
-    title: "Higher Secondary School",
+    title: "Senior Secondary [12th]",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Dujana Public Senior Seconadry School",
+      href: "https://school.careers360.com/schools/dujana-public-school-dujana-gautam-budh-nagar",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2020-2022",
+    location: "Dadri, Noida",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Learned the basics of computer science and programming languages. Participated in various hackathons and coding competitions.",
   },
   {
-    title: "Secondary School Education",
+    title: "Secondary Education [10th]",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Nav Uday Public School",
+      href: "https://www.facebook.com/Navudaydhaulana/",
     },
     date: "2017-2018",
-    location: "Andheri, Mumbai",
+    location: "Andheri, Noida",
     description:
       "Learned good values,dedication and disciplne. Played district football for 5 years.",
   },

@@ -8,19 +8,18 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - React and Frontend Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Abhinandan - Full Stack Developer Portfolio"
+        description="Explore a collection of projects by Abhinandan, a seasoned Full Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title:
-            "Discover Projects by Amit Chauhan - React and Frontend Developer",
+          title: "Discover Projects by Abhinandan - Full Stack Developer",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a React and Frontend Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Abhinandan, a Full Stack Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Abhinandan - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -54,8 +53,8 @@ export default function Projects() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              I am currently working on a new project to detect the skin cancer
+              using AI an ML models
             </span>
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}

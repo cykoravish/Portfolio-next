@@ -15,18 +15,18 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="Amit Chauhan | React and Frontend Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Abhinandan | Full Stack Developer"
+        description="Explore the professional portfolio of Abhinandan, a skilled Full Stack Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - React and Frontend Developer Portfolio",
+          title: "Abhinandan - Full Stack Developer Portfolio",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abhinandan. Discover a Full Stack Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Abhinandan - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,

@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "OpenSource Contributor",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
-    },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
-  },
-  {
-    title: "Engineering Trainee",
-    organisation: {
-      name: "Hexaware",
+      name: "NextUI, Supabase, Stack-Auth",
       href: "https://hexaware.com/",
     },
-    date: "July 2023 - Sep 2023",
+    date: "May 2024 - Present",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Contributing to various open-source projects. Developed features, fixed bugs, and improved the performance of the projects.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Freelancer",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "Upwork, Fiveer",
+      href: "https://hexaware.com/",
     },
-    date: "Winter - 2022",
+    date: "Apr 2024 - Present",
     location: "Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Working on multiple projects with clients from all over the world. Developed websites, web apps, and mobile apps using various technologies.",
+  },
+  {
+    title: "Full Stack Developer",
+    organisation: {
+      name: "SkilledUp",
+      href: "https://www.skilledup.tech/",
+    },
+    date: "Apr 2024 - May 2024",
+    location: "Noida",
+    description: "NextJS, TailwindCSS, NodeJS, Express, MongoDB",
   },
 ];
