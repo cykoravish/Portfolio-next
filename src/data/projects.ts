@@ -75,7 +75,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "A finance management app where user can add, delete, update and view their transactions. It also has a feature to view the summary of all transactions. It uses Nextjs, Tailwindcss, PostgreSQL, HonoJS, Vercel and Drizzle.",
-    sourceCodeHref: "https://github.com/abhinandan-verma/finance",
+    sourceCodeHref: "https://github.com/awesome-pro/finance",
     liveWebsiteHref: "https://finance-seven-psi.vercel.app/",
   },
   {
@@ -89,7 +89,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/abhinandan-verma/kanban",
+    sourceCodeHref: "https://github.com/awesome-pro/kanban",
     liveWebsiteHref: "https://kannban-board.vercel.app",
   },
   {
@@ -98,7 +98,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/comingSoon.png"],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/abhinandan-verma/ManyGames",
+    sourceCodeHref: "https://github.com/awesome-pro/ManyGames",
     liveWebsiteHref: "https://manygames.vercel.app",
   },
   {
@@ -112,7 +112,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs 13, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/abhinandan-verma/port",
+    sourceCodeHref: "https://github.com/awesome-pro/port",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
 ];

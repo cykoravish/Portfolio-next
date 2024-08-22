@@ -12,12 +12,12 @@ export type ContactCardProps = {
 
 function ContactCard({ title, imagePath, link }: ContactCardProps) {
   return (
-    <Link href={link} className="w-[440px] md:w-[500px] md:hover:w-[550px] ">
+    <Link href={link} className="w-[440px] md:w-[500px]">
       <div
-        className={`m-8 flex items-center  justify-between rounded-2xl bg-blue-700 bg-opacity-30 py-4 text-black shadow-lg dark:bg-white dark:text-white lg:m-6 `}
+        className={`m-8 flex items-center  justify-between rounded-2xl bg-blue-700 bg-opacity-30 py-4 text-black shadow-lg hover:bg-sky-200 dark:bg-white dark:text-white dark:hover:bg-blue-200 lg:m-6`}
       >
         <div className="mx-8 flex items-center gap-4">
-          <div className="bg-primary dark:bg-secondary flex h-16 w-16 items-center justify-center rounded-full">
+          <div className="bg-primary dark:bg-secondary flex h-16 w-16 items-center justify-center rounded-full hover:bg-blue-200">
             <Image
               src={`/icons/${imagePath}.svg`}
               alt={title}

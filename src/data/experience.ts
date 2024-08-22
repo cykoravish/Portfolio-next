@@ -4,13 +4,13 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
     title: "OpenSource Contributor",
     organisation: {
-      name: "NextUI, Supabase, Stack-Auth",
+      name: "NextUI",
       href: "https://hexaware.com/",
     },
     date: "May 2024 - Present",
     location: "Remote",
     description:
-      "Contributing to various open-source projects. Developed features, fixed bugs, and improved the performance of the projects.",
+      "Contributed to NextUI for resolving issues and adding many value features, which brought offer from CEO to join their NextUI",
   },
   {
     title: "Freelancer",

@@ -19,7 +19,7 @@ export const CONTACT_DATA: ContactCardProps[] = [
     title: "Github",
     description: "",
     imagePath: "github",
-    link: "https://github.com/abhinandan-verma",
+    link: "https://github.com/awesome-pro",
   },
   {
     title: "Linkedin",
@@ -67,7 +67,7 @@ export const CONTACT_DATA: ContactCardProps[] = [
     title: "Dev",
     description: "",
     imagePath: "dev",
-    link: "https://dev.to/abhinandan-verma",
+    link: "https://dev.to/awesome-pro",
   },
   {
     title: "Hashnode",

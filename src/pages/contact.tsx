@@ -42,13 +42,13 @@ function Contact() {
       />
 
       <div className="flex min-h-screen w-full flex-col items-center justify-center py-20">
-        <h1 className="text-primary dark:text-secondary text-center text-4xl font-bold">
+        <h1 className="text-primary text-center text-6xl font-bold dark:text-white">
           Contact Me
         </h1>
         <h3 className="px-12 py-5 font-serif text-xl text-blue-600 dark:text-blue-400">
           Have a question or want to work together? Feel free to reach out!
         </h3>
-        <div className="mt-8 flex flex-col items-center justify-center">
+        <div className="mt-8 flex grid-cols-2 flex-col items-center justify-center lg:grid">
           {CONTACT_DATA.map((contact, index) => (
             <ContactCard key={index} {...contact} />
           ))}
