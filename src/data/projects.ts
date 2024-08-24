@@ -68,6 +68,19 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "SBI Finance",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
+      "/images/projects/idea-front.webp",
+      "/images/projects/idea-pricing.webp",
+      "/images/projects/idea-signin.webp",
+    ],
+    description:
+      "A platform to get Problem, Solution & Innovation to build to your own SaaS/Startup/Product. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
+    sourceCodeHref: "https://github.com/awesome-pro/getidea",
+    liveWebsiteHref: "https://getidea.vercel.app/",
+  },
+  {
+    name: "SBI Finance",
+    favicon: "/images/projects/logos/jsontree.ico",
+    imageUrl: [
       "/images/projects/financeHero.webp",
       "/images/projects/financeSignIn.webp",
       "/images/projects/financeTrans.png",
@@ -114,5 +127,19 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "My personal portfolio website made using Nextjs 13, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/awesome-pro/port",
     liveWebsiteHref: siteMetadata.siteUrl,
+  },
+  {
+    name: "LoveCast",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/loveDark.webp",
+      "/images/projects/loveLight.webp",
+      "/images/projects/loveBottom.webp",
+      "/images/projects/loveCard.webp",
+    ],
+    description:
+      "A web app to find love and make friends. It uses Nextjs, Tailwindcss, & Vzy",
+    sourceCodeHref: "https://github.com/awesome-pro/",
+    liveWebsiteHref: "https://lovecast.vzy.io/",
   },
 ];
