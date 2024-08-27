@@ -42,7 +42,7 @@ export default function LandingHero() {
                 Abhinandan
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Full Stack Dev, Freelancer &amp; OpenSource Contributer
+                Full Stack Dev, Freelancer &amp; OpenSource Contributor
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>

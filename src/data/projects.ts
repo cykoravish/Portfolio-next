@@ -65,7 +65,24 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "SBI Finance",
+    name: "Unique AI",
+    favicon: "/images/projects/logos/kanban.ico",
+    imageUrl: [
+      "/images/projects/uniqueFront.webp",
+      "/images/projects/uniqueMoney.webp",
+      "/images/projects/uniqueLight.webp",
+      "/images/projects/uniquePython.webp",
+      "/images/projects/uniqueEdge.webp",
+      "/images/projects/uniqueAuth.webp",
+      "/images/projects/uniqueAI.webp",
+    ],
+    description:
+      "A very modern UI based web app to generate unique ideas for your next project. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
+    sourceCodeHref: "https://github.com/awesome-pro/neon-website",
+    liveWebsiteHref: "https://uniqueai,netlify.app",
+  },
+  {
+    name: "GetIdea",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
       "/images/projects/idea-front.webp",
@@ -79,7 +96,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "SBI Finance",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/financeHero.webp",
       "/images/projects/financeSignIn.webp",
@@ -130,7 +147,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "LoveCast",
-    favicon: "/favicon.ico",
+    favicon: "/jsontree.ico",
     imageUrl: [
       "/images/projects/loveDark.webp",
       "/images/projects/loveLight.webp",
