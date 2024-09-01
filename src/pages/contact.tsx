@@ -5,6 +5,7 @@ import { NextSeo } from "next-seo";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 import ContactCard from "@/components/contact/contact-card";
 import { CONTACT_DATA } from "@/data/contact-data";
+import Crystal from "@/components/crystal";
 
 function Contact() {
   return (
@@ -40,6 +41,10 @@ function Contact() {
           },
         ]}
       />
+
+      <span className="flex w-full items-center justify-center">
+        <Crystal />
+      </span>
 
       <div className="flex min-h-screen w-full flex-col items-center justify-center py-20">
         <h1 className="text-primary text-center text-6xl font-bold dark:text-white">

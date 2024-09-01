@@ -5,6 +5,36 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "Image Compressor",
+    href: "/projects",
+    tags: ["Node.js", "Express.js", "Sharp", "Multer", "Render", "MongoDB"],
+    image: {
+      LIGHT: "/images/projects/imageFront.webp",
+      DARK: "/images/projects/imageFront.webp",
+    },
+  },
+  {
+    index: 1,
+    title: "Unique AI",
+    href: "/projects",
+    tags: [
+      "Next.js",
+      "Tailwindcss",
+      "Framer Motion",
+      "JavaScript",
+      "Vercel",
+      "Swiper",
+      "HLS.js",
+      "Lodash",
+      "Lottie",
+    ],
+    image: {
+      LIGHT: "/images/projects/uniqueFront.webp",
+      DARK: "/images/projects/uniqueFront.webp",
+    },
+  },
+  {
+    index: 2,
     title: "SBI Finance",
     href: "/projects",
     tags: [
@@ -20,50 +50,18 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/financeHero.webp",
     },
   },
-  {
-    index: 1,
-    title: "Aarogya AI",
-    href: "/projects",
-    tags: [
-      "Next.js",
-      "Tailwindcss",
-      "MongoDB",
-      "mongoose",
-      "Vercel",
-      "Tensorflow",
-      "Python",
-      "Flask",
-      "Docker",
-    ],
-    image: {
-      LIGHT: "/images/projects/aarogyaFront.webp",
-      DARK: "/images/projects/aarogyaFront.webp",
-    },
-  },
-  {
-    index: 2,
-    title: "AI Emailer",
-    href: "/projects",
-    tags: [
-      "Next.js",
-      "Tailwindcss",
-      "TypeScript",
-      "MySQL",
-      "Vercel",
-      "Redis",
-      "BullMQ",
-      "Nodemailer",
-      "Gmail API",
-      "Node.js",
-    ],
-    image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
-    },
-  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "Image Compressor",
+    favicon: "/images/projects/logos/kanban.ico",
+    imageUrl: ["/images/projects/imageFront.webp"],
+    description:
+      "Developed a high-performance asynchronous image processing pipeline which can handle up 1000+ images per day. Architected the robust system using Node.js, Express.js & MongoDB ensuring 99.9% uptime with built-in Retry and Error-handling mechanisms.  Reduced image storage costs by 50% by implementing real-time image compression using Sharp, integrating withCloudinary for scalable storage. Optimized CSV data processing, achieving a 70% improvement in processing speed throughconcurrent workers and parallel execution.Deployed the system on AWS , ensuring scalability and high availability, leading to a 30% increase in processing capacity",
+    sourceCodeHref: "https://github.com/awesome-pro/node-backend",
+    liveWebsiteHref: "https://nodebackend-y2pf.onrender.com/",
+  },
   {
     name: "Unique AI",
     favicon: "/images/projects/logos/kanban.ico",
