@@ -13,7 +13,7 @@ export const CONTACT_DATA: ContactCardProps[] = [
     title: "Email",
     description: "",
     imagePath: "gmail",
-    link: "mailto:abhinandanverm551@gmail.com",
+    link: "mailto:abhinandanverma551@gmail.com",
   },
   {
     title: "Github",
