@@ -60,7 +60,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Developed a high-performance asynchronous image processing pipeline which can handle up 1000+ images per day. Architected the robust system using Node.js, Express.js & MongoDB ensuring 99.9% uptime with built-in Retry and Error-handling mechanisms.  Reduced image storage costs by 50% by implementing real-time image compression using Sharp, integrating withCloudinary for scalable storage. Optimized CSV data processing, achieving a 70% improvement in processing speed throughconcurrent workers and parallel execution.Deployed the system on AWS , ensuring scalability and high availability, leading to a 30% increase in processing capacity",
     sourceCodeHref: "https://github.com/awesome-pro/node-backend",
-    liveWebsiteHref: "https://nodebackend-y2pf.onrender.com/",
+    liveWebsiteHref:
+      "https://www.postman.com/abhinandan-verma/workspace/pro-developers/request/31971900-e113e5e6-4550-45c1-a85e-9fae331cbba1",
   },
   {
     name: "Unique AI",
@@ -77,7 +78,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "A very modern UI based web app to generate unique ideas for your next project. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
     sourceCodeHref: "https://github.com/awesome-pro/neon-website",
-    liveWebsiteHref: "https://uniqueai,netlify.app",
+    liveWebsiteHref: "https://uniqueai.netlify.app",
   },
   {
     name: "GetIdea",
@@ -117,8 +118,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/awesome-pro/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+    sourceCodeHref: "https://github.com/awesome-pro/aarogya_ai",
+    liveWebsiteHref: "https://github.com/awesome-pro/aarogya_ai",
   },
   {
     name: "Emailer AI",
@@ -126,8 +127,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/comingSoon.png"],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/awesome-pro/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+    sourceCodeHref: "https://github.com/awesome-pro/emailer",
+    liveWebsiteHref: "https://github.com/awesome-pro/emailer",
   },
   {
     name: "My portfolio",
