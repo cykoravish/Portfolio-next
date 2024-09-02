@@ -105,7 +105,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "A finance management app where user can add, delete, update and view their transactions. It also has a feature to view the summary of all transactions. It uses Nextjs, Tailwindcss, PostgreSQL, HonoJS, Vercel and Drizzle.",
     sourceCodeHref: "https://github.com/awesome-pro/finance",
-    liveWebsiteHref: "https://finance-seven-psi.vercel.app/",
+    liveWebsiteHref: "https://finance-eight-self.vercel.app/",
   },
   {
     name: "Aarogya AI",
