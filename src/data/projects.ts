@@ -90,6 +90,16 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://impakter.vercel.app/",
   },
   {
+    name: "Aayush",
+    favicon: "/images/projects/logos/kanban.ico",
+    imageUrl: ["/images/projects/aayush.webp"],
+    description:
+      "Developed an OPD queuing system for a hospital using Next.js, Tailwind CSS, Shadcn-UI, and MongoDB. Implemented the system for 100+ users, ensuring real-time updates and high availability. Optimized the system for mobile devices, achieving a 90% improvement in performance. Deployed the system on Firebase, ensuring scalability and high availability, leading to a 30% increase in user engagement.",
+    sourceCodeHref: "https://github.com/awesome-pro/aayush/blob/main/README.md",
+    liveWebsiteHref:
+      "https://github.com/awesome-pro/aayush/blob/main/README.md",
+  },
+  {
     name: "GetIdea",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
