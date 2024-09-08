@@ -54,15 +54,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Impakter",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: ["/images/projects/impakter.webp"],
-    description:
-      "Developed  the front-end of sustainablilty Index platform using Next.js, Tailwind CSS, Slider, TypeScript and Framer Motion. Implemented the design system using Tailwind CSS, achieving a 50% reduction in CSS code. Integrated the platform with the backend using REST APIs, ensuring real-time data updates. Optimized the platform for mobile devices, achieving a 90% improvement in performance. Deployed the platform on Vercel, ensuring scalability and high availability, leading to a 30% increase in user engagement.",
-    sourceCodeHref: "https://github.com/awesome-pro/impakter",
-    liveWebsiteHref: "https://impakter.vercel.app/",
-  },
-  {
     name: "Image Compressor",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/imageFront.webp"],
@@ -88,6 +79,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "A very modern UI based web app to generate unique ideas for your next project. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
     sourceCodeHref: "https://github.com/awesome-pro/neon-website",
     liveWebsiteHref: "https://uniqueai.netlify.app",
+  },
+  {
+    name: "Impakter",
+    favicon: "/images/projects/logos/kanban.ico",
+    imageUrl: ["/images/projects/impakter.webp"],
+    description:
+      "Developed  the front-end of sustainablilty Index platform using Next.js, Tailwind CSS, Slider, TypeScript and Framer Motion. Implemented the design system using Tailwind CSS, achieving a 50% reduction in CSS code. Integrated the platform with the backend using REST APIs, ensuring real-time data updates. Optimized the platform for mobile devices, achieving a 90% improvement in performance. Deployed the platform on Vercel, ensuring scalability and high availability, leading to a 30% increase in user engagement.",
+    sourceCodeHref: "https://github.com/awesome-pro/impakter",
+    liveWebsiteHref: "https://impakter.vercel.app/",
   },
   {
     name: "GetIdea",
