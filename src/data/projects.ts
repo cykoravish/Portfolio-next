@@ -58,8 +58,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Developed an OPD Queue Management system for a hospital using Next.js, Tailwind CSS, Shadcn-UI, Redis & RabbitMQ. Implemented the system for 100+ users, ensuring real-time updates and high availability. Optimized the system for mobile devices, achieving a 90% improvement in performance. Deployed the system on Vercel AWS, ensuring scalability and high availability, leading to a 30% increase in user engagement.",
     sourceCodeHref: "https://github.com/awesome-pro/aayush/blob/main/README.md",
-    liveWebsiteHref:
-      "https://github.com/awesome-pro/aayush/blob/main/README.md",
   },
   {
     name: "SBI Finance",
@@ -87,7 +85,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
     sourceCodeHref: "https://github.com/awesome-pro/aarogya_ai",
-    liveWebsiteHref: "https://github.com/awesome-pro/aarogya_ai",
   },
   {
     name: "Emailer AI",
@@ -96,7 +93,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Gmail API integration to send emails to multiple users. It uses Node.js with TypeScript &  Gmail API.",
     sourceCodeHref: "https://github.com/awesome-pro/emailer",
-    liveWebsiteHref: "https://github.com/awesome-pro/emailer",
   },
   {
     name: "My portfolio",
