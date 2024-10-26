@@ -12,7 +12,7 @@ export const siteMetadata = {
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
-  email: "abhinandanverma551@gmail.com",
+  email: "abhinandanverma555@gmail.com",
   github: "https://github.com/awesome-pro",
   twitter: "https://x.com/abhinandan_v0",
   linkedin: "https://www.linkedin.com/in/abhinandan-verma",
