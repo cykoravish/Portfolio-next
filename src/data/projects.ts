@@ -14,26 +14,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
-    title: "Unique AI",
-    href: "/projects",
-    tags: [
-      "Next.js",
-      "Tailwindcss",
-      "Framer Motion",
-      "JavaScript",
-      "Vercel",
-      "Swiper",
-      "HLS.js",
-      "Lodash",
-      "Lottie",
-    ],
-    image: {
-      LIGHT: "/images/projects/uniqueFront.webp",
-      DARK: "/images/projects/uniqueFront.webp",
-    },
-  },
-  {
     index: 2,
     title: "SBI Finance",
     href: "/projects",
@@ -64,30 +44,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "https://www.postman.com/abhinandan-verma/workspace/pro-developers/request/31971900-e113e5e6-4550-45c1-a85e-9fae331cbba1",
   },
   {
-    name: "Unique AI",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/uniqueFront.webp",
-      "/images/projects/uniqueMoney.webp",
-      "/images/projects/uniqueLight.webp",
-      "/images/projects/uniquePython.webp",
-      "/images/projects/uniqueEdge.webp",
-      "/images/projects/uniqueAuth.webp",
-      "/images/projects/uniqueAI.webp",
-    ],
-    description:
-      "A very modern UI based web app to generate unique ideas for your next project. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
-    sourceCodeHref: "https://github.com/awesome-pro/neon-website",
-    liveWebsiteHref: "https://uniqueai.netlify.app",
-  },
-  {
     name: "Impakter",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/impakter.webp"],
     description:
       "Developed  the front-end of sustainablilty Index platform using Next.js, Tailwind CSS, Slider, TypeScript and Framer Motion. Implemented the design system using Tailwind CSS, achieving a 50% reduction in CSS code. Integrated the platform with the backend using REST APIs, ensuring real-time data updates. Optimized the platform for mobile devices, achieving a 90% improvement in performance. Deployed the platform on Vercel, ensuring scalability and high availability, leading to a 30% increase in user engagement.",
     sourceCodeHref: "https://github.com/awesome-pro/impakter",
-    liveWebsiteHref: "https://impakter.vercel.app/",
   },
   {
     name: "Aayush",
@@ -98,19 +60,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/awesome-pro/aayush/blob/main/README.md",
     liveWebsiteHref:
       "https://github.com/awesome-pro/aayush/blob/main/README.md",
-  },
-  {
-    name: "GetIdea",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/idea-front.webp",
-      "/images/projects/idea-pricing.webp",
-      "/images/projects/idea-signin.webp",
-    ],
-    description:
-      "A platform to get Problem, Solution & Innovation to build to your own SaaS/Startup/Product. It uses Nextjs, Tailwindcss, MongoDB, Mongoose, Vercel, and Clerk.",
-    sourceCodeHref: "https://github.com/awesome-pro/getidea",
-    liveWebsiteHref: "https://getidea.vercel.app/",
   },
   {
     name: "SBI Finance",
@@ -145,7 +94,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: ["/images/projects/comingSoon.png"],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
+      "Gmail API integration to send emails to multiple users. It uses Node.js with TypeScript &  Gmail API.",
     sourceCodeHref: "https://github.com/awesome-pro/emailer",
     liveWebsiteHref: "https://github.com/awesome-pro/emailer",
   },
@@ -162,19 +111,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "My personal portfolio website made using Nextjs 13, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/awesome-pro/port",
     liveWebsiteHref: siteMetadata.siteUrl,
-  },
-  {
-    name: "LoveCast",
-    favicon: "/jsontree.ico",
-    imageUrl: [
-      "/images/projects/loveDark.webp",
-      "/images/projects/loveLight.webp",
-      "/images/projects/loveBottom.webp",
-      "/images/projects/loveCard.webp",
-    ],
-    description:
-      "A web app to find love and make friends. It uses Nextjs, Tailwindcss, & Vzy",
-    sourceCodeHref: "https://github.com/awesome-pro/",
-    liveWebsiteHref: "https://lovecast.vzy.io/",
   },
 ];
