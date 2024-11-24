@@ -14,7 +14,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 2,
+    index: 1,
     title: "SBI Finance",
     href: "/projects",
     tags: [
